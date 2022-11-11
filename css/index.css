@@ -1,0 +1,364 @@
+/* 网页主体内容样式文件 */
+/* 侧边栏 */
+html, body, .main {
+    height: 100%;
+}
+.main {
+    float: left;
+}
+.sidebar {
+    overflow-y: scroll;
+    height: 100%;
+    width: 172px;
+    background-color: #060716;
+    padding-top: 60px;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+.sidebar .logo {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: -10px;
+    width: 172px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #060716;
+}
+.scroll {
+    height: 100%;
+    overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll ul {
+    text-align: center;
+}
+.scroll ul li {
+    height: 100%;
+    position: relative;
+    margin-top: 32px;
+}
+.scroll ul li img {
+    position: absolute;
+    top: -2px;
+    left: 40px;
+    width: 26px;
+    height: 26px;
+}
+.scroll ul li:nth-child(1) {
+    margin-top: 10px;
+}
+.scroll ul li:nth-child(7) img {
+    top: -2px;
+    left: 42px;
+    width: 23px;
+    height: 23px;
+}
+.scroll ul li:nth-child(6) a {
+    margin-left: 15px;
+} 
+.scroll ul li a {
+    color: #8d8d94;
+}
+.scroll ul li a:hover {
+    color: #fff;
+    font-weight: 700;
+}
+.scroll ul span {
+    display: inline-block;
+    width: 64px;
+    height: 1px;
+    margin-right: 20px;
+    margin-top: 28px;
+    background-color: #31323a;
+}
+.scroll .ul2 li:nth-child(3) a {
+    margin-left: 15px;
+}
+.scroll .ul2 li:nth-child(6) a {
+    margin-left: 0px;
+}
+.scroll .ul2 li:nth-child(7) img {
+    top: -2px;
+    left: 40px;
+    width: 26px;
+    height: 26px;
+}
+.scroll .ul2 li:nth-child(6) img {
+    top: -4px;
+    left: 38px;
+    width: 30px;
+    height: 30px;
+}
+.web_copyright {
+    padding: 0 16px;
+}
+.web_info {
+    margin-top: 40px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    color: #787981;
+    border-bottom: 1px solid #31323a;
+}
+.web_info p {
+    margin-bottom: 5px;
+}
+.web_info p img {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.web_info a {
+    color: #787981;
+}
+.web_report {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    color: #787981;
+    border-bottom: 1px solid #31323a;
+}
+.web_report a {
+    color: #787981;
+}
+.web_report p {
+    margin-bottom: 5px;
+}
+.web_adv {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #787981;
+}
+.web_adv p {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.web_adv p:nth-child(2) {
+    float: right;
+}
+.web_adv a {
+    color: #787981;
+}
+.web_adv p:nth-child(2n) {
+    float: left;
+}
+/* 导航栏 */
+.content {
+    float: right;
+    width: calc(100% - 172px);
+    height: 100%;
+    background-color: #161722;
+}
+.search_func {
+    position: relative;
+    padding: 0 30px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #22242e;
+}
+.search {
+    float: left;
+}
+.search_func .search input {
+    padding: 12px 15px;
+    width: 514px;
+    border-radius: 6px;
+    color: #dadadb;
+    border: 1px solid #dadadb;
+    background-color: #161722;
+    outline: none;
+}
+.search_func .search:hover span {
+    color: #000;
+    width: 68px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.search span {
+    position: absolute;
+    left: 475px;
+    top: 11px;
+    color: #dadadb;
+    width: 62px;
+    height: 40px;
+    line-height: 40px;
+}
+.search span::before {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../icon/sousuo.png) no-repeat center;
+    background-size: 26px 26px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+.search .func {
+    float: right;
+}
+.func {
+    float: right;
+}
+.func ul {
+    float: left;
+}
+.func li {
+    float: left;
+    line-height: 22px;
+    padding-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+.func li span {
+    margin: 0 auto;
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #363741;
+}
+.func li img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.func li:nth-child(3)  img{
+    width: 22px;
+    height: 22px;
+}
+.func li a {
+    font-size: 12px;
+    color: #a0a1a5;
+}
+.func .xian {
+    float: left;
+    margin-top: 20px;
+    width: 1px;
+    height: 25px;
+    background-color: #363741;
+}
+.func .login {
+    float: left;
+    margin-left: 17px;
+    margin-top: 13px;
+    border-radius: 5px;
+    width: 104px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #fe2c55;
+    color: #fff;
+}
+/* 视频播放 */
+.content_video {
+    position: relative;
+    width: 98%;
+    margin: 20px;
+    height: calc(95% - 60px);
+    background-color: #161722;
+}
+#video-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+  }
+.video_func {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.video_func video {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.user_func {
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+    width: 55px;
+    height: 490px;
+    text-align: center;
+    margin: 0 auto;
+}
+.func_page {
+    width: 35px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 18px;
+    background-color: #494a52;
+}
+.func_page div {
+    height: 40px;
+    line-height: 40px;
+}
+.func_page div img  {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.func_head {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+.func_head img {
+    width: 100%;
+    border-radius: 50%;
+}
+.func_head::after {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 9px);
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../icon/jiahao1.svg) no-repeat center;
+    background-size: 18px 18px;
+}
+.user_func .zan {
+    margin-top: 30px;
+}
+.user_func .zan img {
+    width: 22px;
+    height: 24px;
+}
+.user_func .zan:last-child img {
+    width: 45px;
+    height: 40px;
+    background-size: 22px 24px;
+}
+.video_text {
+    position: absolute;
+    left: 40px;
+    bottom: 110px;
+    display: none;
+}
+.content_video:hover .video_text {
+    display: block;
+}
+.video_text p {
+    color: #fff;
+}
+.video_text p:first-child {
+    font-size: 22px;
+}
